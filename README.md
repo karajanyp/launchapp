@@ -12,7 +12,7 @@ That's it :)
 
 ## Building and installing
 
-You'll need an iDevice running iOS 11 or later, jailbroken with [LiberiOS](http://newosxbook.com/liberios/). On your Mac, you'll need Xcode 9 and jtool. If you don't have jtool installed, the build script will automatically download the latest version. Make sure that if you do have jtool installed, it is the most recent version [downloaded from here](http://www.newosxbook.com/tools/jtool.html).
+You'll need an iDevice running iOS 11 or later, jailbroken with [LiberiOS](http://newosxbook.com/liberios/) or Electra. On your Mac, you'll need Xcode 9 and jtool. If you don't have jtool installed, the build script will automatically download the latest version. Make sure that if you do have jtool installed, it is the most recent version [downloaded from here](http://www.newosxbook.com/tools/jtool.html).
 
 To build and install, run:
 
