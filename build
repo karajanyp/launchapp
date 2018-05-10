@@ -49,7 +49,7 @@ clang -framework Foundation -isysroot $SDKROOT -arch arm64 launchapp/main.m -o $
 if [ $? -eq 0 ]; then
     echo "Signing..."
 
-    $JTOOL --sign platform --ent $ENTS --inplace $EXECUTABLE &> $LOGFILE
+    $JTOOL --sign --ent $ENTS --inplace $EXECUTABLE &> $LOGFILE
 
     if [ $? -eq 0 ]; then
         if [ "$DEVICEHOST" != "$SKIPINSTALL" ]; then
